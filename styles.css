@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredoka+One&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Staatliches&display=swap");
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+
+:root {
+  --black: #1d1d1f;
+  --white: #ffffff;
+  --blue: #06c;
+}
+
+* {
+  font-family: "SF Pro Display", "Noto Sans KR", "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--black);
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+  margin-top: 6px;
+}
+
+a {
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+  color: var(--blue);
+  letter-spacing: 0.011em;
+  text-decoration: none;
+  margin-top: 14px;
+  display: inline-block;
+}
+
+a:nth-of-type(2n) {
+  margin-left: 35px;
+}
+
+img {
+  margin-top: 30px;
+}
+
+p > img {
+  margin: 0;
+  margin-bottom: -10px;
+}
